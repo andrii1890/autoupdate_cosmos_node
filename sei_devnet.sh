@@ -2,8 +2,8 @@
 GREEN_COLOR='\033[0;32m'
 RED_COLOR='\033[0;31m'
 NO_COLOR='\033[0m'
-BLOCK=8871251
-VERSION=1.2.2beta
+BLOCK=9943711
+VERSION=1.2.3beta
 echo -e "$GREEN_COLOR NODE WILL BE UPDATED TO VERSION: $VERSION ON BLOCK NUMBER: $BLOCK $NO_COLOR\n"
 for((;;)); do
 	height=$(seid status |& jq -r ."SyncInfo"."latest_block_height")
